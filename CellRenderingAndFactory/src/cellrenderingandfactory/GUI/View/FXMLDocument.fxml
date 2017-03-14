@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="425.0" prefWidth="668.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cellrenderingandfactory.GUI.Controller.FXMLDocumentController">
+    <children>
+      <TableView fx:id="tblWater" focusTraversable="false" layoutX="14.0" layoutY="14.0" prefHeight="398.0" prefWidth="641.0">
+        <columns>
+          <TableColumn fx:id="colName" prefWidth="75.0" text="Name" />
+          <TableColumn fx:id="colConduct" prefWidth="138.0" text="Conductivity" />
+          <TableColumn fx:id="colPH" prefWidth="147.0" text="pH" />
+          <TableColumn fx:id="colCalcium" prefWidth="116.0" text="Calcium" />
+          <TableColumn fx:id="colPot" prefWidth="146.0" text="Potassium" />
+        </columns>
+      </TableView>
+    </children>
+</AnchorPane>
